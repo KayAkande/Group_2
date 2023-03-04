@@ -23,3 +23,15 @@ Console I/O: reads 0, writes 0
 Paging: page faults 0, TLB misses 0
 Network I/O: received 0, sent 0
 BUILD SUCCESSFUL (total time: 1 second)"
+
+
+some other tests
+
+Alarm class: 
+It implements a priority queue from the util package from Java. It also adds a new class called SleepyThread, which represents a thread that is going to be put to sleep. This SleepyThread class also contains a comparator, also from the util package. 
+This new class called SleepyThread has a KThread and a long primitive data as class attributes, a constructor called SleepyThread that initializes the class instance and a method that compares threads based on their priority (waiting time) implementing the Comparator from java.utils and comparing two threads’ priorities (waiting times). 
+In addition, the Alarm class also uses imported methods, such as .isEmpty(), .peek(), .add() and .pool(). 
+
+Calls the timerInterrupt method a couple of times and sleeps the threads based on the waitTime. 
+Each thread to be put to sleep is queued and put to sleep. 
+Sleeping threads will eventually be woken up. 
